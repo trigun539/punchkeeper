@@ -15,6 +15,11 @@
 		0F99A4B11AD8C52000025017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F99A4B01AD8C52000025017 /* Images.xcassets */; };
 		0F99A4B41AD8C52000025017 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F99A4B21AD8C52000025017 /* LaunchScreen.xib */; };
 		0F99A4C01AD8C52000025017 /* punchkeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4BF1AD8C52000025017 /* punchkeeperTests.swift */; };
+		0F99A4CA1AD96B0900025017 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4C91AD96B0900025017 /* User.swift */; };
+		0F99A4CC1AD96B1800025017 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4CB1AD96B1800025017 /* Company.swift */; };
+		0F99A4CE1AD96B2900025017 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4CD1AD96B2900025017 /* Card.swift */; };
+		0F99A4D01AD96B3B00025017 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4CF1AD96B3B00025017 /* Token.swift */; };
+		0F99A4D21AD96E6800025017 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99A4D11AD96E6800025017 /* Address.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,11 @@
 		0F99A4B91AD8C52000025017 /* punchkeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = punchkeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F99A4BE1AD8C52000025017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F99A4BF1AD8C52000025017 /* punchkeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = punchkeeperTests.swift; sourceTree = "<group>"; };
+		0F99A4C91AD96B0900025017 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0F99A4CB1AD96B1800025017 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		0F99A4CD1AD96B2900025017 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0F99A4CF1AD96B3B00025017 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		0F99A4D11AD96E6800025017 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,11 @@
 				0F99A4B01AD8C52000025017 /* Images.xcassets */,
 				0F99A4B21AD8C52000025017 /* LaunchScreen.xib */,
 				0F99A4A31AD8C52000025017 /* Supporting Files */,
+				0F99A4C91AD96B0900025017 /* User.swift */,
+				0F99A4CB1AD96B1800025017 /* Company.swift */,
+				0F99A4CD1AD96B2900025017 /* Card.swift */,
+				0F99A4CF1AD96B3B00025017 /* Token.swift */,
+				0F99A4D11AD96E6800025017 /* Address.swift */,
 			);
 			path = punchkeeper;
 			sourceTree = "<group>";
@@ -218,10 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F99A4D21AD96E6800025017 /* Address.swift in Sources */,
 				0F99A4A81AD8C52000025017 /* RootViewController.swift in Sources */,
 				0F99A4AC1AD8C52000025017 /* ModelController.swift in Sources */,
+				0F99A4CE1AD96B2900025017 /* Card.swift in Sources */,
 				0F99A4AA1AD8C52000025017 /* DataViewController.swift in Sources */,
+				0F99A4CA1AD96B0900025017 /* User.swift in Sources */,
 				0F99A4A61AD8C52000025017 /* AppDelegate.swift in Sources */,
+				0F99A4CC1AD96B1800025017 /* Company.swift in Sources */,
+				0F99A4D01AD96B3B00025017 /* Token.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
